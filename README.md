@@ -1,7 +1,7 @@
 # Zeotap
 # **Customer Segmentation and Analysis Project**
 
-This project focuses on performing **Exploratory Data Analysis (EDA)**, **Lookalike Modeling**, and **Customer Segmentation** using clustering techniques on a customer dataset. The objective of this analysis is to gain meaningful business insights and perform segmentation to help improve business strategies.
+This project focuses on performing **Exploratory Data Analysis (EDA)**, **Lookalike Modeling**, **Customer Segmentation** using clustering techniques, and utilizing advanced machine learning models such as **XGBoost** and **Contrastive Learning** on a customer dataset. The objective of this analysis is to gain meaningful business insights and perform segmentation to help improve business strategies.
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -16,12 +16,13 @@ This project focuses on performing **Exploratory Data Analysis (EDA)**, **Lookal
    - Clustering Techniques Used
    - PCA and Dimensionality Reduction
    - Clustering Results and Evaluation Metrics
-6. [Business Insights](#business-insights)
-7. [Code and File Structure](#code-and-file-structure)
-8. [Installation and Usage](#installation-and-usage)
+6. [Machine Learning Models](#machine-learning-models)
+   - XGBoost
+   - Contrastive Learning
+
 
 ## **Introduction**
-The goal of this project is to perform customer segmentation analysis using various machine learning techniques such as **Exploratory Data Analysis (EDA)**, **Lookalike Modeling**, and **Clustering**. We aim to provide meaningful insights into customer behavior, sales trends, and effective customer engagement strategies to help improve business outcomes.
+The goal of this project is to perform customer segmentation analysis using various machine learning techniques such as **Exploratory Data Analysis (EDA)**, **Lookalike Modeling**, **Clustering**, and **Advanced Machine Learning Models** like **XGBoost** and **Contrastive Learning**. We aim to provide meaningful insights into customer behavior, sales trends, and effective customer engagement strategies to help improve business outcomes.
 
 ## **Data Overview**
 The dataset used for this analysis includes various customer attributes such as **demographics**, **purchase history**, **spending behavior**, and **transaction data**. This data was analyzed to derive key insights about customer trends, product performance, and revenue generation.
@@ -78,6 +79,16 @@ After applying clustering algorithms and PCA, the following results were observe
 
 These DB Index values helped evaluate the quality of the clusters formed by each algorithm. The lower the DB Index, the better the clustering.
 
+## **Machine Learning Models**
 
-These insights will help businesses focus on high-value customers, optimize marketing campaigns, and target regions with the highest growth potential.
+### **XGBoost**
+**XGBoost** was employed as a powerful machine learning model for predicting customer behavior. After training the model on the dataset, it achieved a **100% test accuracy**. The model performed excellently, indicating its high predictive capability and robustness in handling large datasets.
+
+### **Contrastive Learning**
+**Contrastive Learning** was utilized to enhance the model's understanding of customer segments and their relationships. This technique uses a **self-supervised learning** approach to identify similarities and dissimilarities between customer pairs, which helped in identifying unique segments. The model achieved a **75.05% accuracy**.
+
+These machine learning models played a crucial role in enhancing the segmentation and prediction tasks, providing valuable insights for customer targeting and engagement.
+
+
+
 
