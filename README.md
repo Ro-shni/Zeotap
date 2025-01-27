@@ -78,10 +78,6 @@ After applying clustering algorithms and PCA, the following results were observe
 
 These DB Index values helped evaluate the quality of the clusters formed by each algorithm. The lower the DB Index, the better the clustering.
 
-## **Business Insights**
-- The highest **average spending per transaction** was observed in **South America**.
-- The top-selling products in terms of revenue were the **ActiveWear Smartwatch** and **SoundWave Headphones**.
-- **Customer signups** have significantly increased over the years, with the highest growth in 2024.
 
 These insights will help businesses focus on high-value customers, optimize marketing campaigns, and target regions with the highest growth potential.
 
